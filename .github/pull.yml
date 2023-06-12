@@ -1,0 +1,11 @@
+version: "1"
+rules:
+  - base: dev-c3
+    upstream: sunnyhaibin:dev-c3
+    mergeMethod: hardreset
+  - base: staging-c3
+    upstream: sunnyhaibin:staging-c3
+    mergeMethod: hardreset
+  - base: release-c3
+    upstream: sunnyhaibin:release-c3
+    mergeMethod: hardreset
